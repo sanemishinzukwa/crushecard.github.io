@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Love+Ya+Like+A+Sister&family=Playwrite+NZ+Guides&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+.playwrite-nz-guides-regular{
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-weight: 800;
+    stroke: black 2px solid;
+    font-family: "Playwrite NZ Guides", cursive;
+
+text-decoration: underline black 2px dotted;
+}
+
+.box{
+    width: 800px;
+    height: 500px;
+    position:relative;
+    background: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transform: translate(50%,50%);
+    top: -100px;
+    border-radius: 20px;
+    box-shadow: inset 2px 5px 10px;
+    border: 4px dotted #f1131a;
+}
+.icon{position: absolute;
+
+    width: 60px;
+    height: 60px;
+
+}
+.img1{
+position: relative;
+top: -180px;
+margin-left: 20px;
+}
+.img2{
+    position: relative;
+    top: 180px;
+    left: -50px;
+}
+
+.img5{
+    position: relative;
+    left: -120px;
+}
+
+.img6{
+    position: absolute;
+    right: 20px;
+}
+.img3{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    height: 70px;
+    width: 70px;}
+.img4{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    height: 80px;
+    width: 80px;
+}
+h2{
+    position: relative;
+    text-align: center;
+    top: -180px;
+    font-family: "Love Ya Like A Sister";
+}
+
+.love-ya-like-a-sister-regular{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body-text{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    left: 200px;
+    top: 200px;
+}
+
+.buttons{
+    position: relative;
+    bottom: -100px;
+    left: 25%;
+   
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    border: 3px dashed #ec1e7b;
+}
+
+button:hover{
+    background: #ff9a9e;
+    border: 3px dashed black;
+    transform: translateY(-10px);
+    font-kerning: auto;
+    transition: 0.3s all ease;
+    
+}
+.love-light-regular{
+    font-family: "Love Light", cursive;
+    font-weight: 800;
+    font-style: bold;
+}
+
+p{
+    font-family: "Love Light";
+    font-weight: 600;
+    font-size: 28px;
+    align-items: justify;
+    text-align: center;
+}
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}  
+#title{
+
+}
