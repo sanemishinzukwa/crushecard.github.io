@@ -48,16 +48,18 @@ image: "./assets/chick.png",
 },
 {
     title: "Byee Love You So Much",
-    text: "Finally I feeling Light like a Cloud after sharing my words with you.",
+    text: "Finally I feel Light like a Cloud after sharing my words with you.",
     image: ""
 }
 ]
 
 let currentIndex = 0;
 
+const audio = document.getElementById("myaudio");
+const audiobtn = document.getElementById("play-audio");
 const prebtn = document.getElementById("prebtn");
 const nextbtn = document.getElementById("nextbtn");
-
+const pauseaudio = document.getElementById("pause-audio");
 const title = document.getElementById("title");
 const cardtext = document.getElementById("cardtext");
 
@@ -90,3 +92,34 @@ prebtn.addEventListener ("click", ()=>{
     }
 });
 Textmsg(currentIndex);
+
+
+function playaudio(){
+audio.play();
+
+    if(audio === audio.play()){
+    audio.pause();
+
+    }
+    else{
+        audio.play();
+    }
+
+}
+
+function audiopause(){
+    audio.pause();
+}
+
+audiobtn.addEventListener("click", ()=>{
+    playaudio();
+})
+
+pauseaudio.addEventListener("click", ()=>{
+    audiopause();
+})
+
+function add(){
+    audiobtn.addEventListener("");
+    let text = document.getElementById("textbtn");
+}
