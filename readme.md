@@ -10,8 +10,7 @@ You can also download this e-card as image in any mode in desktop and mobile and
 Sugar Rush Justification:
 
 1. My project is full responsive works well in desktop and mobile and tablet.
-2. It is Made for Lynn, Who is my Secert Crush  
-https://hackclub.slack.com/archives/C0A6MCHFFEU/p1777823613848709
+2. It is Made for Itachi Uchiha, Who is my Secert Crush  
 
 
 That's all from my side, 
